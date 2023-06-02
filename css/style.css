@@ -6,11 +6,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
 
 h1 {
     font-size: 16px;
@@ -38,6 +33,13 @@ h3 {
     position: relative;
     margin-left: -50px;
     margin-top: 38px;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .container {
@@ -86,15 +88,17 @@ h3 {
     width: 100%;
 }
 
-/* Ces 2 classes correspondent au titre "La palettes du goût" */
+
+/* Ces 2 classes correspondent au nom du restaurant */
 
 .title {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
     margin-top: 20px;
 }
+
 
 h4 {
     font-family: 'Shrikhand', cursive;
@@ -103,8 +107,9 @@ h4 {
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: -20px;
+    margin-left: -60px;
 }
+
 
 /* Ces classes correspondent au coeur qui se colore */
 
@@ -128,8 +133,8 @@ h4 {
     }
 
 
-
 /* Ce CSS correspond aux cartes intéractives des plats */ 
+
 
 .catégories {
     display: flex;
@@ -150,7 +155,11 @@ h4 {
     padding-bottom: 0;
 }
 
-/* Ces 2 classes correspondent au bloc bleu qui apparaît au survol de chaque carte */ 
+
+
+/* Ces 2 classes correspondent au bloc bleu qui apparaît au survol de chaque carte */
+
+
 
 .bloce1 {
     height: 80px;
@@ -235,7 +244,7 @@ h4 {
     background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
 }
-
+ 
 .button {
     margin-top: 30px;
     display: flex;
@@ -244,9 +253,7 @@ h4 {
 }
 
 
-
 /* Le CSS suivant correspond au footer */
-
 
 .foot {
     background-color: #353535;
@@ -313,11 +320,11 @@ li {
 }
 
 ul {
-    display: flex;
-    margin-top: 0;
-    gap: 15px;
-    flex-direction: column;
-    margin-left: -20px
+   display: flex;
+margin-top: 0;
+gap: 15px;
+flex-direction: column;
+margin-left: -20px
 }
 
 .prpanddvpandul a:link {
@@ -415,7 +422,7 @@ ul {
         position: relative;
     top: 20px;
     left: 20px;
-    width: 100px;
+    width: 80px;
     }
     
     .logo2 {
